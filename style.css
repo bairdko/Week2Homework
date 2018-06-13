@@ -14,7 +14,7 @@ h1 {
 .navbar{
     padding: 0;
     min-width:15%;
-    border-bottom: solid 2px #ccc;
+    border-bottom: solid 2px #aaa;
 }
 
 .navbar-brand{
@@ -35,7 +35,7 @@ a.nav-link:hover{
 }
 
 #main{
-    margin-top:3%;
+    margin-top:7%;
 }
 
 h2 {
@@ -70,3 +70,26 @@ form{
 button{
     margin-bottom:5%;
 }
+
+.portfolioImages{
+  margin:6% 0;
+}
+
+.overlayText{
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+a.bannerText{
+    color: #fff;
+}
+
+a.bannerText:hover{
+    color:#ddd;
+    font-style:italic;
+    text-transform: none;
+}
+
+
