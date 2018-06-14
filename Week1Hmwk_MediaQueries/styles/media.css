@@ -1,0 +1,50 @@
+@media screen and (max-width: 980px){
+
+  footer{
+    display:none;
+  }
+
+  .about{
+    margin: 0 auto 0 5%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  footer{
+    display:none;
+  }
+
+  #headshot{
+    width:60%;
+    height:60%;
+  }
+
+  .about{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 640px){
+  footer{
+    display:none;
+  }
+
+  nav{
+    position:static;
+  }
+
+  .right{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    background-color:  #4aaaa5;
+    width:210px;
+    height:20px;
+    padding:20px
+  }
+}
